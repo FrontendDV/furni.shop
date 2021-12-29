@@ -1,0 +1,104 @@
+.shooping{
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+.container-product{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid grey;
+}
+h5{
+    font-size: 20px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+}
+.product-card{
+    align-items: center;
+    margin-top: 20px;
+}
+.product{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid grey;
+}
+.product-title{
+    width: 45%;
+    text-align: center;
+}
+.product-price{
+    width: 15%;
+    text-align: center;
+}
+.product-quantity{
+    width: 15%;
+    text-align: center;
+}
+.product-total{
+    width: 25%;
+    text-align: center;
+}
+.name{
+    width: 45%;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+.price{
+    width: 15%;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+}
+.quantity{
+    width: 15%;
+    text-align: center;
+}
+.total{
+    width: 25%;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+}
+.basketTotal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.basketTotal h4{
+    font-family: 'Inter',sans-serif;
+    margin-right: 10px;
+    font-weight: bold;
+    width: 10%;
+    margin-top: 20px;
+}
+
+@media (max-width:1024px){
+    .container-product{
+        width: 100%;
+    }
+    .product-title{
+        width: 25%;
+    }
+    .product-quantity{
+        width: 25%;
+    }
+    .product-total{
+        width: 15%;
+    }
+    .product{
+        width: 100%;
+    }
+    .deleteButton{
+        display: none;
+    }
+    .name{
+        width: 23%;
+    }
+}

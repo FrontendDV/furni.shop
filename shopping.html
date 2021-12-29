@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/pngtree-furniture-logo-design-vector-symbol-and-icon-of-chairs-png-image_2112073.jpg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>furni.shop</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container navigation">
+            <div>
+                <a href="index.html" class="logo">furni.shop</a>
+            </div>
+            <div class="navDiv">
+                <ul class="navUl">
+                    <li class="navLi"><a href="index.html" class="navA active">Home</a></li>
+                    <li class="navLi"><a href="#about" class="navA">About</a></li>
+                    <li class="navLi"><a href="#products" class="navA">Products</a></li>
+                    <li class="navLi"><a href="#contact" class="navA">Contact</a></li>
+                    <a href="shopping.html" class="addDiv">
+                        <img src="img/icons8-favorite-cart-24.png" alt=""> 
+                        <span class="cartSpan">0</span>
+                    </a>
+                </ul>
+            </div>
+            <div class="menu-searchDiv">
+                <img src="img/Search Icon.png" alt="image">
+                <img src="img/More Icon.png" alt="image" id="menuBtn">
+            </div>
+        </div>
+    </header>
+<!-- Hidden menu -->
+    <div class="hidden-nav">
+        <ul class="showUl">
+            <div class="closeBtn" id="closeBtn">
+                <img src="img/icons8-close.svg" width="35px" alt="image">
+            </div>
+            <li class="hiddenLi"><a href="index.html" class="hidden-nav-a a1">Home</a></li>
+            <li class="hiddenLi"><a href="#about" class="hidden-nav-a a2">About</a></li>
+            <li class="hiddenLi"><a href="#products" class="hidden-nav-a a3 active">Products</a></li>
+            <li class="hiddenLi"><a href="#contact" class="hidden-nav-a a4">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+<!-- Back to top -->
+<button class="backtoTop" id="backBtn" onclick="scrollBack()">
+    <img src="img/icons8-double-up-50.png" width="30px" alt="image">
+</button>
+
+<!-- Shooping Section -->
+    <section class="shooping">
+        <div class="container-product">
+            <h5 class="product-title">Product</h5>    
+            <h5 class="product-price">Price</h5>
+            <h5 class="product-quantity">Quantity</h5>
+            <h5 class="product-total">Total</h5>
+        </div>
+        <div class="product-card">
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+    <footer class="footer animateUp animate__animated" id="contact">
+        <div class="footerDiv container">
+            <div class="footerTitle">
+                    <h1 class="footerH1">
+                        Start your business today for <br> $0+ state fees.
+                    </h1>
+                <div class="footerBtn">
+                    <button class="getStartedButton" id="getStartedButton">Get Started</button>
+                    <button class="ContactSales" id="ContactSales">Contact Sales</button>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="footerNav">
+                <div class="footerList">
+                    <h1 class="listH1">furni.shop</h1>
+                    <p class="listP">Optix seamlessly connects your <br> members with the community,<br> resources.</p>
+                    <div class="footerIcon">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="img/Icon (2).png" alt="image">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="img/Icon (3).png" alt="image">
+                        </a>
+                        <a href="https://www.linkedin.com/home" target="_blank">
+                            <img src="img/Icon (4).png" alt="image">
+                        </a>
+                        <a href="https://www.pinterest.com/" target="_blank">
+                            <img src="img/Icon (5).png" alt="image">
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="footerList">
+                    <h2 class="listH2">Entity types</h2>
+                    <ul class="listUl">
+                        <li class="listLi">Knowledge base</li>
+                        <li class="listLi">Security</li>
+                        <li class="listLi">Privacy Policy</li>
+                        <li class="listLi">Partners</li>
+                        <li class="listLi">About us</li>
+                        <li class="listLi">FAQs</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <h2 class="listH2">Services</h2>
+                    <ul class="listUl">
+                        <li class="listLi">Contact Us</li>
+                        <li class="listLi">Press</li>
+                        <li class="listLi">Payrool</li>
+                        <li class="listLi">Library</li>
+                        <li class="listLi">Blog</li>
+                        <li class="listLi">Help Center</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <h2 class="listH2">Resources</h2>
+                    <ul class="listUl">
+                        <li class="listLi">Pricing</li>
+                        <li class="listLi">FAQs</li>
+                        <li class="listLi">Contact Support</li>
+                        <li class="listLi">Privacy Policy</li>
+                        <li class="listLi">Terms</li>
+                    </ul>
+                </div>
+                <div class="footerList">
+                    <h2 class="listH2">Support</h2>
+                    <ul class="listUl">
+                        <li class="listLi">Contact</li>
+                        <li class="listLi">Affiliates</li>
+                        <li class="listLi">Sitemap</li>
+                        <li class="listLi">Cancelation Policy</li>
+                        <li class="listLi">Pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js" integrity="sha512-gWlyRVDsJvp5kesJt4cSdPPLZIBdln/uSwzYgUicQcbTgRNQE4QhP5KUBIYlLYLkiKIQiuD7KUMHzqGNW/D2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/shopping.js"></script>
+</body>
+</html>
